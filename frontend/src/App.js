@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
-import AppointmentsPage from './pages/AppointmentsPage';
+import Footer from './components/Footer.js';
+import HomePage from './pages/HomePage.js';
+import LoginPage from './pages/LoginPage.js';
+import RegisterPage from './pages/RegisterPage.js';
+import AppointmentsPage from './pages/AppointmentsPage.js';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/appointments" element={<AppointmentsPage />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

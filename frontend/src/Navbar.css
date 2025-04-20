@@ -1,6 +1,6 @@
 .navbar {
-    background-color: #333;
-    color: white;
+    background-color: #d8df0d;
+    color: rgb(27, 69, 205);
     padding: 10px 0;
     text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .navbar a {
-    color: white;
+    color: rgb(2, 114, 152);
     text-decoration: none;
     font-size: 18px;
 }

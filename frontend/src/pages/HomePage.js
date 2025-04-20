@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomePage.css';
+//import './HomePage.css';
 
 function HomePage() {
   return (
@@ -8,6 +8,8 @@ function HomePage() {
       {/* Hero Section */}
       <h1>Welcome to Our Salon</h1>
       <p>Discover the best services for your beauty needs.</p>
+      <a href="/login">Login</a>
+      <a href="/register">Sign Up</a>
 
 
       {/* About Section */}
